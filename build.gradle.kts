@@ -1,5 +1,6 @@
 plugins {
     id("java")
+
 }
 
 group = "bot.inker.ankhguard"
@@ -10,8 +11,6 @@ repositories {
 }
 
 dependencies {
-    implementation("commons-net:commons-net:3.9.0")
-
     implementation("org.keycloak:keycloak-dependencies-server-all:22.0.1")
 
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
